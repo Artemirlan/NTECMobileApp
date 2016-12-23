@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "553388546562",
+    "firebase_url": "https://ntec-mobile-appl-1474797574965.firebaseio.com",
+    "project_id": "ntec-mobile-appl-1474797574965",
+    "storage_bucket": "ntec-mobile-appl-1474797574965.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553388546562:android:173e3627d89368af",
+        "android_client_info": {
+          "package_name": "ntecmobileapp.com.at.ntecmobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553388546562-a9rimgmqkcdbmk7vjjvp0pfljc58kg2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbUlPUnsXc9_p92d_avPqB8MQkAmkaDtQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

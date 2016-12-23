@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4dd0e1"
+    android:layout_weight="10"
+    android:id="@+id/main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="28sp"
+        android:layout_weight="2"
+        android:fontFamily="sans-serif-thin"
+        android:textColor="#000000"
+        android:paddingRight="32dp"
+        android:textSize="28sp"
+        android:text="Welcome!"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="3">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:src="@drawable/sussan"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:paddingLeft="36dp"
+        android:paddingRight="36dp"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/quote"
+        android:paddingTop="5dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.01"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:src="@drawable/aspirelogo"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="64dp" />
+</LinearLayout>

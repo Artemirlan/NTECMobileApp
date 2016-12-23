@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ntecmobileapp.com.at.ntecmobileapp.Main2Activity"
+    tools:showIn="@layout/app_bar_main2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:weightSum="10">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/imageButtonAsp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/aspire2imgbut1"
+            android:background="#ffffff"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/imageButtonCV"
+            android:scaleType="fitXY"
+            android:background="#ffffff"
+            android:src="@drawable/imagebutcvwriter1"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/imageButtonVTour"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitXY"
+            android:background="#ffffff"
+            android:src="@drawable/imagebutvirtual1"
+            android:layout_weight="1" />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/imageButtonCalend"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitXY"
+            android:background="#ffffff"
+            android:src="@drawable/calend1"
+            android:layout_weight="1" />
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/imageButton5"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitXY"
+            android:background="#ffffff"
+            android:src="@drawable/aboutappimgbut"
+            android:layout_weight="1" />
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00838f</color>
+    <color name="colorPrimaryDark">#006064</color>
+    <color name="colorAccent">#0097a7</color>
+    <color name="main">#298DDC</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="black">#242421</color>
+    <color name="orange">#FA0</color>
+    <color name="white">#FFF</color>
+    <color name="blue">#00F</color>
+    <color name="red">#B00</color>
+    <color name="aaa">#483d8b</color>
+
+
+    <color name="yellow">#DD2</color>
+    <color name="sky">#F4A460</color>
+    <color name="sky1">#DEB887</color>
+    <color name="header">#282</color>
+    <color name="card">#2B3</color>
+
+    <color name="grad_st">#FF8008</color>
+    <color name="grad_fn">#FFC837</color>
+
+    <color name="mid">#8d6e63</color>
+    <color name="news">#4e342e</color>
+    <color name="univ">#bcaaa4</color>
+    <color name="fab">#e66c2c</color>
+
+    <color name="grad_pagest">#ffffff</color>
+    <color name="grad_pagefn">#9e9e9e</color>
+    <color name="grad_pagest1">#Dcdcdc</color>
+
+
+    <color name="custom1st">#d53369</color>
+    <color name="custom1fn">#cbad6d</color>
+
+    <color name="custom2st">#4b6cb7</color>
+    <color name="custom2fn">#182848</color>
+
+    <color name="custom3st">#fc354c</color>
+    <color name="custom3fn">#0abfbc</color>
+
+    <color name="custom4st">#242421</color>
+    <color name="custom4fn">#B0DAB9</color>
+
+    <color name="custom5st">#FF8008</color>
+    <color name="custom5fn">#FFC837</color>
+
+
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+</resources>

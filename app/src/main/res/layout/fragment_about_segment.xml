@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ntecmobileapp.com.at.ntecmobileapp.aspire2info.AboutSegment"
+
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:fadeScrollbars="true"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                android:text="@string/hello_blank_fragment"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:gravity="center|top"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:padding="10dp"
+                android:fontFamily="sans-serif"
+                android:textSize="17dp"
+                android:text="Aspire2 Group Limited comprises five New Zealand based private tertiary education and training groups made up of twelve high quality Private Training Establishments.  We provide education and vocational training to almost 7,000 domestic, international and business to business students each year."
+                android:id="@+id/textView6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:fontFamily="sans-serif"
+                android:padding="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textSize="17dp"
+                android:text="Our vision is to create future opportunities for our students by providing world class programmes."
+                android:id="@+id/textView7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:fontFamily="sans-serif"
+                android:padding="10dp"
+                android:textSize="17dp"
+                android:text="We pride ourselves on building environments to enable our staff and students to thrive."
+                android:id="@+id/textView8" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:padding="10dp"
+                android:fontFamily="sans-serif"
+                android:textSize="17dp"
+                android:text="Our overarching objective is to deliver the best possible employment outcomes for our students."
+                android:id="@+id/textView9"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

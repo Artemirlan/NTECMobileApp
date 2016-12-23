@@ -1,0 +1,90 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="ntecmobileapp.com.at.ntecmobileapp.aspire2info.MissionFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:weightSum="3">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="\n Everyone Matters \n"
+                    android:id="@+id/textView10"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:textColor="#ffffff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text=" \n Aiming High \n "
+                    android:id="@+id/textView11"
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimary"
+                    android:textColor="#ffffff"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="\n Cont Improvement \n"
+                    android:id="@+id/textView12"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@color/colorPrimary"
+                    android:textColor="#ffffff"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textStyle="italic"
+                android:textSize="17dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="• Learning is student and client focused. Individual capabilities and goals are recognised. Diversity is celebrated. Fairness is fundamental"
+                android:id="@+id/textView13" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:padding="20dp"
+                android:textStyle="italic"
+                android:textSize="17dp"
+                android:text="• Boundaries and assumptions are challenged Students, clients and teachers are unafraid to try – mistakes are accepted Everyone takes responsibility for creating a safe, secure and collaborative learning environment"
+                android:id="@+id/textView14" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textStyle="italic"
+                android:textSize="17dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="• Excellence is the objective Innovation is celebrated Reviews are regular and change is welcomed and rapidly adopted"
+                android:id="@+id/textView15" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
